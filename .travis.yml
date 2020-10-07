@@ -8,7 +8,7 @@ python:
   - "3.6"
 jobs:
   include:
-    - python: '3.8' 
+    - python: '3.8'
       env: EXTRA_TESTS=true
     - python: '3.6'
       env: EXTRA_TESTS=true
